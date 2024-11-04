@@ -173,7 +173,7 @@ ol {
 }
 
 .content__accent {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
@@ -183,7 +183,7 @@ ol {
 .content__video-card-title {
   max-width: 200px;
   overflow: hidden;
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
