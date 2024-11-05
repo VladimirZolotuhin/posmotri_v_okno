@@ -207,11 +207,13 @@ text-align: left;
 
 .search-form__label {
   display: inline-flex;
+  align-items: center;
+  width: fit-content;
   gap: 5px;
   cursor: pointer;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -234,6 +236,7 @@ text-align: left;
   line-height: 22px;
   text-align: left;
   background-color: transparent;
+  appearance: none;
 }
 
 .search-form__textfield:focus {
